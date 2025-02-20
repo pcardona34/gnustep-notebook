@@ -1,0 +1,45 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    Controller = {
+	Actions = (
+	    "createNew:",
+	    "showInfoPanel:",
+	    "open:",
+	    "saveAll:"
+	);
+	Outlets = (
+	);
+	Super = NSObject;
+    };
+    FirstResponder = {
+	Actions = (
+	    "createNew:",
+	    "deletePage:",
+	    "newPage:",
+	    "saveAll:",
+	    "savePage:",
+	    "showInfoPanel:"
+	);
+	Super = NSObject;
+    };
+    Page = {
+	Actions = (
+	    "newPage:",
+	    "savePage:",
+	    "deletePage:",
+	    "saveDocument:",
+	    "saveDocumentAs:",
+	    "saveDocumentTo:",
+	    "revertDocumentToSaved:",
+	    "close:"
+	);
+	Outlets = (
+	    browser,
+	    subject,
+	    keywords,
+	    body,
+	    window
+	);
+	Super = NSObject;
+    };
+}

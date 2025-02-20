@@ -1,0 +1,30 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "browserChanged:",
+	    "deletePage:",
+	    "newChildPage:",
+	    "newPage:",
+	    "savePage:"
+	);
+	Super = NSObject;
+    };
+    Page = {
+	Actions = (
+	    "newPage:",
+	    "savePage:",
+	    "deletePage:",
+	    "browserChanged:",
+	    "newChildPage:"
+	);
+	Outlets = (
+	    browser,
+	    subject,
+	    keywords,
+	    body,
+	    window
+	);
+	Super = NSObject;
+    };
+}

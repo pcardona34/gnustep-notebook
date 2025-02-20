@@ -1,0 +1,22 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "cancelPress:",
+	    "okPress:"
+	);
+	Super = NSObject;
+    };
+    PageNameController = {
+	Actions = (
+	    "cancelPress:",
+	    "okPress:"
+	);
+	Outlets = (
+	    pageName,
+	    window,
+	    okButton
+	);
+	Super = NSObject;
+    };
+}

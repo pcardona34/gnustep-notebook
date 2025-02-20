@@ -1,0 +1,16 @@
+{
+  NSIcon = "NoteBook.png";
+  ApplicationName = "NoteBook.app";
+  ApplicationDescription = "A place to store notes in an organized manner";
+  ApplicationRelease = "0.2";
+  Authors = ("Jeremy Cowgar <jeremy@cowgar.com>");
+  Copyright = 
+    "Copyright (c) 2006 Jeremy Cowgar <jeremy@cowgar.com>";
+  CopyrightDescription = 
+    "This program is released under the GNU GPL"; 
+  NSExtensions = {
+    notes = { 
+      NSIcon = NoteBook.png;
+    };
+  }
+}

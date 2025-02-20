@@ -1,0 +1,8 @@
+
+disttarball: 
+	mkdir -p releases/NoteBook-$(NoteBook_VERSION)
+	cp -R GNUmakefile GNUmakefile.postamble *.m *.h *.plist NoteBook.png \
+      NoteBookApp.notes English.lproj releases/NoteBook-$(NoteBook_VERSION)
+	cd releases && tar cvzf NoteBook-$(NoteBook_VERSION).tar.gz \
+	    NoteBook-$(NoteBook_VERSION)
+

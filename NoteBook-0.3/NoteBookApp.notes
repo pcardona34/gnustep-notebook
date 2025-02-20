@@ -1,0 +1,157 @@
+{
+    Keywords = {
+	KeywordList = {
+	    0 = Internal;
+	    1 = Family;
+	};
+	KeywordNextId = 2;
+    };
+    Pages = {
+	0 = {
+	    1 = {
+		Body = "{\\rtf1\\ansi\\ansicpg10000\\cocoartf102{\\fonttbl\\f0\\fswiss Helvetica;}
+\\f0\\fs24\\pard\\tx0\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\ql \\uc0 NoteBook.app is Cool!}";
+		Children = {
+		    22 = {
+			Body = "{\\rtf1\\ansi\\ansicpg10000\\cocoartf102{\\fonttbl\\f0\\fswiss Helvetica;}
+\\f0\\fs24\\pard\\tx0\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\ql \\uc0 In no order:\\par
+\\tab * Linking to other notes in the note body\\par
+\\tab * Remember window location\\par
+\\tab * Sort entries in AlphaNumeric order\\par
+\\tab * Allow the user to choose the default font in the NSTextView\\par
+\\tab * Interface with GPG to create Encrypted Notes\\par
+\\tab * Save the position and size of the note window in addition to the location of the splitter\\par
+\\tab * Search Support\\par
+\\tab * Abstract the file read/write so that bundles can be created to read/write to a dictionary (like it currently does) or to a SQL database server, to a file system, or who knows what.\\par
+\\tab * Provide a real Keywords interface offering a list of maintained keywords.}";
+			Children = {
+			    28 = {
+				Body = "{\\rtf1\\ansi\\ansicpg10000\\cocoartf102{\\fonttbl\\f0\\fswiss Helvetica;}
+\\f0\\fs24\\pard\\tx0\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\ql \\uc0 The top note you select will become the Introduction. Children notes will be chapters (or sections), those child notes will be sub sections, etc... In the end, you will have a book :-)}";
+				Children = {
+				};
+				Id = 28;
+				Keywords = "";
+				Subject = "RTF Book Export";
+			    };
+			    29 = {
+				Body = "{\\rtf1\\ansi\\ansicpg10000\\cocoartf102{\\fonttbl\\f0\\fswiss Helvetica;}
+\\f0\\fs24\\pard\\tx0\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\ql \\uc0 Let\\rquote s say you have this tree:\\par
+\\par
+* Programming\\par
+\\tab * GNUstep\\par
+* GNUstep\\par
+\\par
+You may want the Programming note (and it\\rquote s children) to appear under GNUstep as well. A shadow note will do nothing more than create a working link from GNUstep to Programming. It will not duplicate notes or redirect you to the parent location, instead, it will act as though that note exists right where you accessed it but when saving data, it will only store the information in one location.}";
+				Children = {
+				};
+				Id = 29;
+				Keywords = "";
+				Subject = "Shadow Notes";
+			    };
+			    30 = {
+				Body = "{\\rtf1\\ansi\\ansicpg10000\\cocoartf102{\\fonttbl\\f0\\fswiss Helvetica;}
+\\f0\\fs24\\pard\\tx0\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\ql \\uc0 Should work a lot like RTF Book Export however, it should allow the user to specify a header and footer .html file and it should also create a menu that allows the user to browse through the pages like the browser allows.}";
+				Children = {
+				};
+				Id = 30;
+				Keywords = "";
+				Subject = "HTML Export";
+			    };
+			};
+			Id = 22;
+			Keywords = "";
+			Subject = Todo;
+		    };
+		    24 = {
+			Body = "{\\rtf1\\ansi\\ansicpg10000\\cocoartf102{\\fonttbl\\f0\\fswiss Helvetica;}
+\\f0\\fs24\\pard\\tx0\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\ql \\uc0 Thanks to #gnustep people!!! They helped me quite a bit in learning with this project, especially aeruder, bheron, Deek and ratmice. Thanks Guys!}";
+			Children = {
+			};
+			Id = 24;
+			Keywords = "";
+			Subject = Thanks;
+		    };
+		    31 = {
+			Body = "";
+			Children = {
+			    32 = {
+				Body = "{\\rtf1\\ansi\\ansicpg10000\\cocoartf102{\\fonttbl\\f0\\fswiss Helvetica;}
+\\f0\\fs24\\pard\\tx0\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\ql \\uc0 A GUI mock up with very limited functionality.}";
+				Children = {
+				};
+				Id = 32;
+				Keywords = "";
+				Subject = 0.1;
+			    };
+			    33 = {
+				Body = "{\\rtf1\\ansi\\ansicpg10000\\cocoartf102{\\fonttbl\\f0\\fswiss Helvetica;}
+\\f0\\fs24\\pard\\tx0\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\ql \\uc0 * Dictionary back end\\par
+* Multiple document support\\par
+* Much better New, New Sub and Delete page interface}";
+				Children = {
+				};
+				Id = 33;
+				Keywords = "";
+				Subject = 0.2;
+			    };
+			    34 = {
+				Body = "{\\rtf1\\ansi\\ansicpg10000\\cocoartf102{\\fonttbl\\f0\\fswiss Helvetica;}
+\\f0\\fs24\\b\\pard\\tx0\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\ql \\uc0 Suggestions from aeruder:\\par
+\\b0 \\uc0 \\tab * Borders around buttons\\par
+\\tab * Renaming \"Main Menu\" to be \"NoteBook.app\"\\par
+\\tab * Implemented Tabbing in the Note Page form\\par
+\\tab * Select newly created items by default\\par
+\\par
+\\b \\uc0 Other Changes:\\par
+\\b0 \\uc0 \\tab * Browser and Note Page is now in a NSSplitView\\par
+\\tab * Save All made functional\\par
+\\tab * Refactored away from internal modified flag to setDocumentEdited and isDocumentEdited (didn\\rquote t know about these until ratmice alerted me to their usage)\\par
+\\tab * Revert to Saved now confirms the operation.\\par
+\\tab * Title is now [filename lastPathComponent] instead of full path and filename\\par
+\\tab * Current page information is store now when clicking the save menu item regardless to if you left the control or not.\\par
+\\tab * Added spell checking\\par
+\\tab * Revert to save now clears current note page since it is no longer active. I would like to make the current page selected again after \"revert to save\" however, I have no way of knowing right now if the current note was in the previous file or not. \"Revert to save\" might remove the current note all together. Just added complexity that I will deal w/in a later version.}";
+				Children = {
+				};
+				Id = 34;
+				Keywords = "";
+				Subject = 0.3;
+			    };
+			};
+			Id = 31;
+			Keywords = "";
+			Subject = Versions;
+		    };
+		    35 = {
+			Body = "{\\rtf1\\ansi\\ansicpg10000\\cocoartf102{\\fonttbl\\f0\\fswiss Helvetica;}
+\\f0\\fs24\\pard\\tx0\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\ql \\uc0 * Sometimes the Save menu item does not become active at the moment of typing in the body NSTextView\\par
+* Revert To Saved is never grayed out like it should be}";
+			Children = {
+			};
+			Id = 35;
+			Keywords = "";
+			Subject = Bugs;
+		    };
+		    6 = {
+			Body = "{\\rtf1\\ansi\\ansicpg10000\\cocoartf102{\\fonttbl\\f0\\fswiss Helvetica;}
+\\f0\\fs24\\pard\\tx0\\tx560\\tx1120\\tx1680\\tx2240\\tx2800\\tx3360\\tx3920\\tx4480\\tx5040\\tx5600\\tx6160\\ql \\uc0 For three reasons\\par
+\\tab 1. To learn GNUstep programming\\par
+\\tab 2. To track my notes\\par
+\\tab 3. To maintain a simple website easily (See Todo -> HTML Export)\\par
+}";
+			Children = {
+			};
+			Id = 6;
+			Keywords = "";
+			Subject = Why;
+		    };
+		};
+		Id = 1;
+		Keywords = Internal;
+		Subject = NoteBook.app;
+	    };
+	};
+	PageNextId = 36;
+    };
+}
