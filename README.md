@@ -25,8 +25,12 @@ I found an archive of the source using the [Internet Archive](https://archive.or
 ## Todo / enhancements
 
 [] Cosmetic reviews, like icons.
+
 [] Warn about not saved note while changing to another context (input in another note) and while quitting.
 without saving the changes.
+
 [] Check the integration of WebBrowser service to load an URL from NoteBook to the WebBrowser...
+
 [] Link to other objects (screenshot / Picture ; URI and bookmarks) ; rich notes (illustrated, media embedding)
+
 [] Saving and opening encrypted notes, saving passwords... 
