@@ -24,7 +24,7 @@ I found an archive of the source using the [Internet Archive](https://archive.or
 
 ## Todo / enhancements
 
-- [ ] Cosmetic reviews, like icons.
+- [ ] Cosmetic reviews, like icons: more close to the spirit of [GNUstep icons specs](https://www.gnustep.org/resources/documentation/Developer/UserExperience/usual-icons.html).
 
 - [ ] Warn about not saved note while changing to another context (input in another note) and while quitting.
 without saving the changes.
@@ -33,4 +33,6 @@ without saving the changes.
 
 - [ ] Link to other objects (screenshot / Picture ; URI and bookmarks) ; rich notes (illustrated, media embedding)
 
-- [ ] Saving and opening encrypted notes, saving passwords... 
+- [ ] Saving and opening encrypted notes, saving passwords...
+
+- [ ] Localisation: French translation. 
